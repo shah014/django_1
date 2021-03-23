@@ -332,3 +332,4 @@ fabric.properties
 env
 venv/
 .env
+.idea/
