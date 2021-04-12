@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Person Details</title>
+</head>
+<body>
+<form method="post">
+    {%csrf_token%}
+    <fieldset style="width:400px;background-color:grey">
+        <label for="name">Name</label> <br>
+        <input type="text" name="name" placeholder="Enter Name" required><br>
+        <label for="address">Address</label><br>
+        <input type="text" name="address" placeholder="Enter Address" required><br>
+        <label for="age">Age</label><br>
+        <input type="number" name="age" placeholder="Enter Age" required><br>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" placeholder="Enter Email" required><br><br>
+        <button type="reset" value="reset">Reset</button>
+        <button type="submit" value="submit">Submit</button>
+    </fieldset>
+</form>
+</body>
+</html>
